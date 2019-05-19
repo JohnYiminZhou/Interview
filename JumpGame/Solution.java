@@ -17,8 +17,10 @@ class Soltuion{
 		int reach = 0;
 		for(int i = 0; i<= reach && reach < A.length;i++){
 			reach = Math.max(reach, i+ A[i]);
-		return reach >= A.length - 1;
+		
 		}
+		return reach>=A.length - 1;
+		
 	}
 	
 }
