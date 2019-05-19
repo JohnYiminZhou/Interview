@@ -13,7 +13,7 @@ Connect remote respository
 
 6. git push -u origin master
 
-How to push change to remote respository:
+Save changes and push to remote respository:
 
 1. git add .
 ready to submit

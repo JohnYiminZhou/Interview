@@ -28,17 +28,13 @@ Final: Once declare with Final , nothing can be changed
 Abstract: Creating abstract classes and methods, tell complier that I am creating abstract class.
 
 Java class declare question. 
-数组的对称.
-观察找到规律。
+
 
 Understand OOP in java.
 
 Eg:
 Person p = new Person();
 
- New Person： 一个Person类的对象
- （）：调用了Person的无参构造方法。
- P： 对象的引用。
 
 JAVA memory:
 

@@ -1,0 +1,27 @@
+Knowledge Base
+
+To do list:
+Array
+Linked list
+Hash
+Binary tree and other tree
+tries
+...
+
+
+Array:
+Stores data elements based on an sequential, most commonly
+0 based, index.
+Based on tuples from set theory.
+Optimal for indexing;bad at searching, inserting and deleting.
+Linear arrays, or one dimensinal arrays are the most basic.
+Are static in size meaning that they are declared with fixed 
+size.
+Dynamic arrays are like one dimensional arrays but have 
+reserved space for additional elements.
+If a dynamic array is full, it copies its contents to a larger
+array.
+N dimensinal array.
+
+Linked List:
+Store data with nodes that point to other nodes.
