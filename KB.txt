@@ -14,14 +14,79 @@ Stores data elements based on an sequential, most commonly
 0 based, index.
 Based on tuples from set theory.
 Optimal for indexing;bad at searching, inserting and deleting.
-Linear arrays, or one dimensinal arrays are the most basic.
+Linear arrays, or one dimensional arrays are the most basic.
 Are static in size meaning that they are declared with fixed 
 size.
 Dynamic arrays are like one dimensional arrays but have 
 reserved space for additional elements.
 If a dynamic array is full, it copies its contents to a larger
 array.
-N dimensinal array.
+N dimensional array.
 
 Linked List:
 Store data with nodes that point to other nodes.
+Node is the basic element of linked list data structure.
+Doubly linked list
+Circularly linked list
+
+Stack
+
+Queues
+
+Hash Table and Hash Map
+Stores data with key values pairs.
+Hash functions accept a key and return an output unique only to that
+Specific key.
+This is known as hashing, which is the concept that an input and an output
+Have a one-to-one correspondent to map information.
+Hash function return a unique address I memory for that data.
+
+What you should know:
+Designed to optimize searching, insertion and deletion.
+Hash collisions are when a hash function returns the same output for
+different input.
+All hash function have such problem.
+This is often accommodated for by having the hash tables be very large.
+
+Hashes are important for associative arrays and database indexing.
+
+Binary tree, what you should know:
+Designed to optimize searching and sorting.
+A degenerate tree is an unbalanced tree, which if entire one-sided is
+Essentially a linked list.
+
+They are comparably simple to implement than other data structure.
+Used to make binary search trees.
+A binary tree that uses comparable keys to assign which direction a child
+is.
+Left child has a key smaller than its parent node.
+Right child has a key greater than its parent node.
+There can be no duplicate node.
+Because of the above, it is more likely to used as a data structure
+than a binary tree.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
