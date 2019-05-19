@@ -1,0 +1,31 @@
+1. Data type: // why size matters?
+ 1. boolean
+ 2. char 16bits Character
+ 3. bytes 8bit Byte
+ 4. short 16bit Short
+ 5. int 32bit Integer
+ 6. long 64bit Long
+ 7. float 32bit Double
+ 8. Double ?
+
+ 2. Switch能否用string做参数？ yes
+ 
+ 3. equals, == difference?
+ equals compare values in memopry space while == compare memory address. 对于引用类型对象和基本类型对象还有所不同。 基本类型对象和其包装类在比较时会对包装类进行拆包，只要数值上相等就返回true， 引用变量类型必须指向同一对象。
+
+4. Object有哪些公用方法？
+ 只说几个常见的吧。 
+wait():线程进入等待，等待notify或者notifyAll唤醒 
+clone():返回对象副本 
+hashcode():返回对象散列值 
+notify():唤醒单个线程 
+notifyAll():唤醒所有线程 
+toString():对象的字符串表示，多用于打印 
+equals(obj):比较对象 
+getClass()返回此 Object 的运行时类。 
+
+5、Java的四种引用，强弱软虚，用到的场景。 
+强引用：不会被GC回收的引用。见的最多的应该是Object obj = new Object（） 
+弱引用：GC线程一发现它就回回收 
+软引用：内存空间够就不回收，不够就回收 
+虚引用：虚引用主要用来跟踪对象被垃圾回收器回收的活动。虚引用与软引用和弱引用的一个区别在于：虚引用必须和引用队列 （ReferenceQueue）联合使用。

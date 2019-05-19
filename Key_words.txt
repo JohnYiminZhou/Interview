@@ -1,0 +1,81 @@
+1. HashSet
+2. Using function in main function
+3. handle strin
+4. How to use Hash including impprot necessay package.
+5. Linked list.
+
+Some notes:
+
+Modifers are keywords that you add to those definitions to change their meanings.
+
+Two kinds of Modifiers:
+1. Java Access Modifiers
+2. Non Access Modifiers
+
+Difference?
+1. It allows you to access different levels for classes, variables, methods and constructors.
+2. However, this kind of Modifier do not perform access function.
+
+To be more specific:
+No Modifier: means visible to the package
+Private: visible to the class only
+Public visible to the world
+Protected visible to the package and all subclasses
+
+Non Access Modifiers:
+Static Creating class methods and variables
+Final: Once declare with Final , nothing can be changed
+Abstract: Creating abstract classes and methods, tell complier that I am creating abstract class.
+
+Java class declare question. 
+数组的对称.
+观察找到规律。
+
+Understand OOP in java.
+
+Eg:
+Person p = new Person();
+
+ New Person： 一个Person类的对象
+ （）：调用了Person的无参构造方法。
+ P： 对象的引用。
+
+JAVA memory:
+
+Java static keyword
+The static keyword in Java is used for memory management mainly. 
+
+Lets assume that we have a class called Employee in Java. This is how you would create a reference of the Employee class:
+
+Create a reference
+Employee e;
+
+Now if you wanted to create an instance or object of the Employee class, you would do so:
+
+Create an reference and an object
+Employee e = new Employee();
+
+This gives a direct answer to your question, but to understand the real difference between references and objects, you need to understand a little about how memory is managed in Java
+/Users/yiminzhou/Desktop/Algorithm/Key_words.txt
+In java, all types are divided into two categories,  primitive types which include int, long, char, boolean and so on, and reference types like String, Date, BufferedReader and other classes. This difference is based on the manner in which memory is allocated to the variables of these types. For example,
+
+int b;
+int a = 10;
+
+Both these statements cause the same effect, memory wise. A block of memory from the stack, big enough to hold an int (4 bytes) is allocated to these variables. This memory is allocated statically, since the size of int and other primitive types is fixed. (The ??? in the diagram indicate some unknown value since the integer has not been initialized yet)
+
+
+Consider the employee class.
+
+Employee e;
+Employee emp = new Employee();
+
+These two statements have different effect memory-wise since they are reference types. The first statement just creates a reference, or a pointer if you will, to an instance of type Employee. This essentially means, the statement tells the compiler "e" is going to point (refer) to an Employee object, but right now is pointing to nothing (null). The interesting part is, the reference itself, that is "e" is stored on the stack statically. So, here you create just the reference.
+
+The second statement however, does more than this. "emp" is allotted memory as a reference as in the previous case, but the use of new keyword creates an object and allots memory to it on the heap, at runtime, i.e dynamically. This statement tells the compiler "emp" is going to refer to the  Employee object that will be created as a result of the new keyword. So, here you create a reference and an object that the reference variable refers to.
+
+Anonymous Classes and backtracking.
+Trie data structure: AKA digital tree, radix tree/prefix tree
+A compound assignment expression of the form E1 op= E2 is equivalent to E1 = (T)((E1) op (E2)), where T is the type of E1, except that E1 is evaluated only once.
+
+Django analysis report:
