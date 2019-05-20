@@ -15,6 +15,7 @@ overlaps with [3,5],[6,7],[8,10].
 
 Idea: merge if overlap
 use class interval represent period.
+Question is what packet than contain interval class?
 */
 import java.util.*;
 import java.lang.*;
