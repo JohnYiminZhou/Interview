@@ -26,3 +26,7 @@ push to remote respository
 
 4. git pull
 copy source code from remote respository
+
+Working on project for the first time in local device:
+
+pull->push
