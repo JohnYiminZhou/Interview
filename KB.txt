@@ -98,7 +98,8 @@ A static method can access static data member and can change the value of it.
 Q) Why is the Java main method static?
 Ans) It is because the object is not required to call a static method. If it were a non-static method, JVM creates an object first then call main() method that will lead the problem of extra memory allocation.
 
-
+In Java, what methods can be called without an object reference?
+Static method.
 
 
 

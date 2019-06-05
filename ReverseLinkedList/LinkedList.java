@@ -78,15 +78,27 @@ class LinkedList{
         
         Node prev = null, curr = list.head, next = null;
         while(curr!=null){
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
+            next = curr.next; //get the copy, so no change for the original data
+            curr.next = prev; //point to prev one instead of next
+            prev = curr;    //move the prev postion to curr, therefore ,prepare for next iteration.
+            curr = next; //move to next node, same reason
+            //In conclusion, the only funcitonal code is curr.next = prev
+            //which change the pointer.
+            //need three reference variables:
+            //prev: copy from prev node, need it because there is nothing can get prev node.
+            //curr: copy from current node
+            //next copy from next node
+            //curr and next act like slide window, move the iteration.
+    
         }
         list.head = prev;
+        //I dont know how to call this kind of skill
+        //but I am tring to master it.
+
         
         return list;
     }
+
     public static void main(String[] args){
         LinkedList list = new LinkedList();
         for(int i = 0; i<10;i++){
