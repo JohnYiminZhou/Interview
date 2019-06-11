@@ -18,14 +18,14 @@ relation?
 Idea: encode number into nature language, then decode into number?
 */
 
-class Soltuion{
-	public String(int n){
+class Solution{
+	public String CountSay(int n){
 		if(n<=n) return null;
 		StringBuilder str = new StringBuilder("1");
 		for(int i =1;i<n;i++){ // find nth number.
 			StringBuilder next = new StringBuilder();
 			int count = 1;
-			for (int j = 1;jk< str.length();j++){ //check current length
+			for (int j = 1;j< str.length();j++){ //check current length
 				if(str.charAt(j) == str.charAt(j-1)){//check current char is same as last one
 					count++;//if it is, increase count.
 				}else{

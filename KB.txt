@@ -85,9 +85,28 @@ Once it reaches the end of a branch it traverses back up trying the right
 of the root then go left on all nodes until bottom.
 The right most node is evaluated last.
 What you should know:
+Optimal for searching a tree that is deeper than its wide.
+Uses a stack to push nodes onto.
+    Because a stack is LIFO, it does not need to keep track of the nodes pointers and is less memory
+    intensive than breadithfirst search.
+    Once it cannot go further left it.
+    Big O efficiency:
+    Search: DFS O(E+V)
+    E is number of edges
+    V is number of vertices
+    BFS VS DFS
+    For wide, shallow trees use BFS
+    For deep. narrow trees use DFS
+    Nuances:
+    Because BFS uses queuee to store information about the nodes and its children, it could
+    use more memory.
+    If DFS on a treethat is very deep you might go unecessaryily deep in the search.
+    BFS tends to be a looping algorithm
+    DFS tends to be a recursive algorithm
 
+    
 A static method belongs to the class rather than the object of a class.
-A static method can be invoked without the need for creating an instance of a class.
+A static method can be invoked without the need for creating an instance of a class
 A static method can access static data member and can change the value of it.
 
 
@@ -101,11 +120,46 @@ Ans) It is because the object is not required to call a static method. If it wer
 In Java, what methods can be called without an object reference?
 Static method.
 
+KB in java:
+1. StringBuilder:
+    Represents a mutable sequence of characters.
+    String Class in Java is immutable sequence of chars, but StringBuilder is not.
 
+    StringBuilder vs StringBuffer
+    synchronization
+    And we dont care for now...
+    
+2. Override:
+    Overriding is feature that allows a subclass or child class to provide a specific
+    implementation of a method that is already provide by on of its super-class or parent
+    class.
 
+    Constructor overriding:
+    Construcor Overriding is never possible in java. This is because, Constructor looks like
+    a method but name should be as class name and no return value.
+    Overriding means what we have declared in Super class, that exactly we have to declare
+    in Sub class it is called Overriding.
 
+3, Override vs Overload
+    Overloading occurs 
+    when two or more methods in one class have the same method name but different parameters. 
+    Overriding means having two methods with the same method name and parameters (i.e., method signature). 
+    One of the methods is in the parent class and the other is in the child class.
 
+Docker:
 
+What is Docker?
+Develop apps, ship them into containers which can then be deployed anywhere.
+
+Docker container:
+A docker container is an open source software development platform.
+
+Images:
+An images is a combination of a file system and parameters.
+
+An instance of an image is a container.
+
+Palindrome problem in interview question.
 
 
 

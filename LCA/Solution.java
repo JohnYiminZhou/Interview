@@ -1,3 +1,11 @@
+package LCA;
+
+/*
+
+Is there a number between p and q in binary search tree?
+Is there a number between p and q in an order array?
+*/
+
 class Solution{
     public class Node{
         int data;

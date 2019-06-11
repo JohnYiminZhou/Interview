@@ -1,3 +1,5 @@
+package PalindromeNumber;
+
 // Determine whether an integer is a palindrome. Do this without extra space.
 //Idea: palindrome number read from backford as same as itself.
 //Question: how to reverse an integer?
@@ -23,9 +25,9 @@ e. Repeat at step a with 123
 
 */
 class Solution{
-	public boolen isPalindrome(int x){
+	public boolean isPalindrome(int x){
 		int num = x, val = 0;
-		if(X<0){return false;}
+		if(x<0){return false;}
 		while(num!=0){
 			val = val*10+num%10;
 			num = num/10;
